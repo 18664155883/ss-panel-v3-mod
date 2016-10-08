@@ -29,6 +29,7 @@ class User extends Model
         "d" => 'int',
         "port" => 'int',
         "transfer_enable" => 'float',
+		"canyum" => 'float',
         "enable" => 'int',
         'is_admin' => 'boolean',
     ];
@@ -172,6 +173,16 @@ class User extends Model
         return false;
     }
 
+	public function isAbleToloin()
+    {       
+		$total = $this->attributes['u'] + $this->attributes['d'];
+        $transferEnable = $this->attributes['transfer_enable'];
+        if (($transferEnable - $total) >= Tools::toGB($canyum=config::get(canyu))) {
+            return true;
+        }       
+        return false;
+    }
+	
     /*
      * @param traffic 单位 MB
      */

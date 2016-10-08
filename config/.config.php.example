@@ -28,6 +28,13 @@ $System_Config['checkinTime'] = '24';      // 签到间隔时间 单位小时
 $System_Config['checkinMin'] = '100';       // 签到最少流量 单位MB
 $System_Config['checkinMax'] = '2048';       // 签到最多流量
 
+//抽奖设置
+$System_Config['loinTime'] = '23';      // 抽奖间隔时间 单位秒
+$System_Config['loMin'] = '-500';       // 抽奖消耗最少流量 单位MB
+$System_Config['loMax'] = '-600';       // 抽奖消耗最多流量 单位MB
+$System_Config['canyu'] = '20';         // 抽奖最低参与流量  单位GB
+
+
 //
 $System_Config['defaultTraffic'] = '10';      // 用户初始流量 单位GB
 

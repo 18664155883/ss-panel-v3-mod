@@ -140,7 +140,7 @@
 											<tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                 <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 5px 0;"
                                                     valign="top">
-													  <p>您的邮箱验证代码为: <b>{$code}</b>，请在网页中填写，完成验证。<br>(本验证代码在 {$expire} 之前有效)</p><br>
+													  <p>您收到此验证邮件是因为您申请注册{$config["appName"]}，您的邮箱验证代码为: <b>{$code}</b>，请在网页中填写，完成验证。如不是您申请注册，请忽视此邮件，谢谢！<br>(本验证代码在 {$expire} 之前有效)</p><br>
                                                 </td>
                                             </tr>
 											
@@ -151,8 +151,8 @@
                                     <td class="content-block aligncenter"
                                         style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: center; margin: 0; padding: 0 0 20px;"
                                         align="center" valign="top">
-                                        <a href="{$config["baseUrl"]}"
-                                           style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; color: #348eda; text-decoration: underline; margin: 0;">{$config["appName"]}</a>
+                                         
+                                      <a style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; color: #348eda; text-decoration: underline; margin: 0;">{$config["appName"]}</a>
                                     </td>
                                 </tr>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">

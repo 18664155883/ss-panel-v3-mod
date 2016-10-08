@@ -3,7 +3,7 @@
 //  ss-panel v3 配置
 //
 // !!! 修改此key为随机字符串确保网站安全 !!!
-$System_Config['key'] = 'jshkghf';
+$System_Config['key'] = '';
 $System_Config['debug'] =  'false';  //  正式环境请确保为false
 $System_Config['appName'] = '云霄阁';             //站点名称
 $System_Config['baseUrl'] = 'http://zhaojin97.cn';            // 站点地址

@@ -23,6 +23,11 @@ class Config
             "baseUrl" => self::get("baseUrl"),
             "checkinTime" => self::get("checkinTime"),
             "checkinMin" => self::get("checkinMin"),
+			"loinTime" => self::get("loinTime"),
+			"canyu" => self::get("canyu"),
+            "loMin" => self::get("loMin"),
+			"loMax" => self::get("loMax"),
+			
 			"code_payback" => self::get("code_payback"),
             "checkinMax" => self::get("checkinMax"),
 			"wecenter_url" => self::get("wecenter_url"),
